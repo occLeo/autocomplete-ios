@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4DB8271E207FD424002B14E4 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4DB8271F207FD424002B14E4 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				4DB82722207FD42B002B14E4 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4DB8270F207FD0BD002B14E4 /* Autocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8270E207FD0BD002B14E4 /* Autocomplete.m */; };
+		4DB82710207FD0BD002B14E4 /* Autocomplete.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DB8270D207FD0BD002B14E4 /* Autocomplete.h */; };
+		4DB82719207FD0F8002B14E4 /* libRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB82718207FD0F8002B14E4 /* libRequest.a */; };
+		4DB8271D207FD327002B14E4 /* ServiceErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8271B207FD327002B14E4 /* ServiceErrors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DB82708207FD0BD002B14E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4DB82710207FD0BD002B14E4 /* Autocomplete.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DB8270A207FD0BD002B14E4 /* libAutocomplete.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAutocomplete.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB8270D207FD0BD002B14E4 /* Autocomplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Autocomplete.h; sourceTree = "<group>"; };
+		4DB8270E207FD0BD002B14E4 /* Autocomplete.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autocomplete.m; sourceTree = "<group>"; };
+		4DB82717207FD0F8002B14E4 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		4DB82718207FD0F8002B14E4 /* libRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRequest.a; sourceTree = "<group>"; };
+		4DB8271B207FD327002B14E4 /* ServiceErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceErrors.m; sourceTree = "<group>"; };
+		4DB8271C207FD327002B14E4 /* ServiceErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceErrors.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB82707207FD0BD002B14E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB82719207FD0F8002B14E4 /* libRequest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB82701207FD0BC002B14E4 = {
+			isa = PBXGroup;
+			children = (
+				4DB8270C207FD0BD002B14E4 /* Autocomplete */,
+				4DB8270B207FD0BD002B14E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB8270B207FD0BD002B14E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB8270A207FD0BD002B14E4 /* libAutocomplete.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB8270C207FD0BD002B14E4 /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				4DB8271A207FD327002B14E4 /* ServiceErrors */,
+				4DB82716207FD0F8002B14E4 /* libRequest */,
+				4DB8270D207FD0BD002B14E4 /* Autocomplete.h */,
+				4DB8270E207FD0BD002B14E4 /* Autocomplete.m */,
+			);
+			path = Autocomplete;
+			sourceTree = "<group>";
+		};
+		4DB82716207FD0F8002B14E4 /* libRequest */ = {
+			isa = PBXGroup;
+			children = (
+				4DB82717207FD0F8002B14E4 /* Request.h */,
+				4DB82718207FD0F8002B14E4 /* libRequest.a */,
+			);
+			path = libRequest;
+			sourceTree = "<group>";
+		};
+		4DB8271A207FD327002B14E4 /* ServiceErrors */ = {
+			isa = PBXGroup;
+			children = (
+				4DB8271B207FD327002B14E4 /* ServiceErrors.m */,
+				4DB8271C207FD327002B14E4 /* ServiceErrors.h */,
+			);
+			path = ServiceErrors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB82709207FD0BD002B14E4 /* Autocomplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB82713207FD0BD002B14E4 /* Build configuration list for PBXNativeTarget "Autocomplete" */;
+			buildPhases = (
+				4DB82706207FD0BD002B14E4 /* Sources */,
+				4DB82707207FD0BD002B14E4 /* Frameworks */,
+				4DB82708207FD0BD002B14E4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autocomplete;
+			productName = Autocomplete;
+			productReference = 4DB8270A207FD0BD002B14E4 /* libAutocomplete.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB82702207FD0BC002B14E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Leonardo Carrillo";
+				TargetAttributes = {
+					4DB82709207FD0BD002B14E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4DB8271E207FD424002B14E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DB82705207FD0BC002B14E4 /* Build configuration list for PBXProject "Autocomplete" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DB82701207FD0BC002B14E4;
+			productRefGroup = 4DB8270B207FD0BD002B14E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB82709207FD0BD002B14E4 /* Autocomplete */,
+				4DB8271E207FD424002B14E4 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DB82722207FD42B002B14E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 -arch i386 -arch armv7 -arch armv7s -arch arm64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\necho \"Universal library can be found here:\"\necho ${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB82706207FD0BD002B14E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB8271D207FD327002B14E4 /* ServiceErrors.m in Sources */,
+				4DB8270F207FD0BD002B14E4 /* Autocomplete.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DB82711207FD0BD002B14E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DB82712207FD0BD002B14E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB82714207FD0BD002B14E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VETU2DGKF5;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Autocomplete/libRequest",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB82715207FD0BD002B14E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VETU2DGKF5;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Autocomplete/libRequest",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DB82720207FD424002B14E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VETU2DGKF5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DB82721207FD424002B14E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VETU2DGKF5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB82705207FD0BC002B14E4 /* Build configuration list for PBXProject "Autocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB82711207FD0BD002B14E4 /* Debug */,
+				4DB82712207FD0BD002B14E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB82713207FD0BD002B14E4 /* Build configuration list for PBXNativeTarget "Autocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB82714207FD0BD002B14E4 /* Debug */,
+				4DB82715207FD0BD002B14E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB8271F207FD424002B14E4 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB82720207FD424002B14E4 /* Debug */,
+				4DB82721207FD424002B14E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB82702207FD0BC002B14E4 /* Project object */;
+}
